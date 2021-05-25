@@ -14,6 +14,9 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   header h1 {
@@ -21,7 +24,6 @@ header {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
   }
   
   header a {
@@ -30,7 +32,6 @@ header {
   }
 
   header nav {
-    float: right;
     margin: 7px 0;
   }
 
@@ -138,11 +139,6 @@ header {
 /*END WHAT WE DO SECTION*/
 
 /*START WHAT YOU DO SECTION*/
-.steps { 
-  text-align: center;
-  background: #fce138;
-}
-
 .section-title {
   font-size: 55px;
   color: #024e76;
@@ -158,6 +154,11 @@ header {
 
 .secondary-border {
   border-color: #39a6b2;
+}
+
+.steps { 
+  text-align: center;
+  background: #fce138;
 }
 
 .steps div {
